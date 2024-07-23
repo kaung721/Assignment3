@@ -1,0 +1,208 @@
+/* Putting in the font SFMoviePoster */
+@font-face {
+    font-family: 'SFMoviePoster';
+    src: url('../font/SFMoviePoster.ttf') format('truetype');
+}
+/* background colour */
+body{
+    background-color: #0e0e0e;
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 34%;
+    object-fit: cover;
+    position: relative;
+    justify-content: center;
+    color: white;
+}
+/* styling the first line of cast */
+.cast1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cast1 > pre{
+    font-family:'compacta', sans-serif;
+    font-size: 0.5em;
+    font-weight: bolder;
+    color: #9fadad;
+    font-style: italic;
+}
+/* styling the title */
+.title {
+    position: absolute;
+    top: 48.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.title > p {
+    font-family:'Anton', sans-serif;
+    font-size: 3.2em;
+    margin-top: -80px;
+    font-weight: bolder;
+    color: #c8d0d0;
+    font-style: italic;
+    border: #0e0e0e;
+}
+/* styling the catchphrase */
+.catchphrase{
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.p1 {
+    font-family: 'Odibee Sans', sans-serif;
+    font-size: 0.65em;
+    margin-top: -12px;
+    padding-left: 32px;
+    font-weight: bolder;
+    color: #c8d0d0;
+    font-style: italic;
+}
+
+.p2{
+    font-family: 'Odibee Sans', sans-serif;
+    font-size: 0.65em;
+    margin-top: -13px;
+    padding-left: 20px;
+    font-weight: bolder;
+    color: #c8d0d0;
+    font-style: italic;
+}
+/* styling the first line of cast */
+.firstline{
+    position: absolute;
+    top: 86.7%;
+    left: 50.6%;
+    transform: translate(-50%, -50%);
+    font-family:'SFMoviePoster';
+    color: #666666;
+    font-weight: bolder;
+    word-spacing: -2px;
+}
+.firstline1, .firstline3, .firstline5, .firstline7{
+    font-size: 0.7em;
+}
+
+.firstline2, .firstline4, .firstline6{
+    font-size: 0.56em;
+    word-spacing: -1px;
+}
+/* styling the second line of cast */
+
+.secondline{
+    position: absolute;
+    font-size: 0.7em;
+    top: 88.4%;
+    left: 50.6%;
+    transform: translate(-50%, -50%);
+    font-family:'SFMoviePoster';
+    color: #666666;
+    font-weight: bolder;
+    word-spacing: -1px;
+}
+
+.secondline2, .secondline4, .secondline6{
+    font-size: 0.6em;
+}
+.secondline8, .secondline10{
+    font-size: 0.7em;
+}
+/* styling the third line of cast */
+
+.thirdline{
+    position: absolute;
+    font-size: 0.7em;
+    top: 89.6%;
+    left: 50.6%;
+    transform: translate(-50%, -50%);
+    font-family:'SFMoviePoster';
+    color: #666666;
+    font-weight: bolder;
+    word-spacing: -1px;
+}
+.thirdline1{
+    margin-bottom: -8px;
+}
+.thirdline2{
+    padding-right: 3px;
+}
+.thirdline1, .thirdline2{
+    font-size: 0.45em;
+}
+.thirdline4, .thirdline6, .thirdline8, .thirdline10, .thirdline12{
+    font-size: 0.6em;
+}
+/* styling for organisations' logos */
+.lastline{
+    position: absolute;
+    top: 93.8%;
+    left: 39.3%;
+    padding-left: 35px;
+    transform: translate(-50%, -50%);
+}
+.secondpic{
+    position: absolute;
+    top: 42.8%;
+    left: 129%;
+    transform: translate(-50%, -50%);
+}
+.link{
+    position: absolute;
+    top: 35.8%;
+    padding-left: 390px;
+    transform: translate(-50%, -50%);
+    color: #666666;
+    font-family: sans-serif;
+    font-size: 0.4em;
+}
+.thirdpic{
+    position: absolute;
+    top: 30.8%;
+    padding-left: 520px;
+    transform: translate(-50%, -50%);
+}
+.fourthpic{
+    position: absolute;
+    top: 30.8%;
+    padding-left: 580px;
+    transform: translate(-50%, -50%);
+}
+.fifthpic{
+    position: absolute;
+    top: 34.8%;
+    padding-left: 655px;
+    transform: translate(-50%, -50%);
+}
+footer{
+    position: absolute;
+    top: 97.2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fdfa8f;
+    font-size: 0.7em;
+    font-family: 'Odibee Sans', sans-serif;
+
+}
+.luda{
+    font-family: 'SFMoviePoster';
+    color: #666666;
+    font-size: 1.3em;
+
+}
+/* styling the footer */
+footer > p {
+    font-family: 'Odibee Sans', sans-serif;
+
+}
+/* positioning of the real poster */
+.real{
+    display: block;
+    margin-left: 33%;
+    width: 50%;
+}
